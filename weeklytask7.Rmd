@@ -1,0 +1,29 @@
+---
+title: "Weekly Task 7"
+output: html_notebook
+---
+
+
+Remember the rules of ~Fight~ Code Club:
+1. ALWAYS DOCUMENT
+2. Cite resources that you use (paste links)
+3. Include the names people who you worked with
+4. Be neat and organized
+
+
+Load the following data:
+```{r}
+library(wooldridge)
+
+data("ceosal1")
+```
+
+
+## Your tasks:
+1. Create a scatterplot to explore the relationship between CEO salary and company sales in the ceosal1 dataset.
+a. Add a trend line to the above scatter plot.
+b. Customize the title, x-axis, and y-axis labels in the scatter plot.
+
+2. Use faceting to explore the relationship between CEO salary and company performance (as measured by return on equity) by industry in the ceosal1 dataset.
+
+3. Create a graph of your choice that utilizes a color scale in a plot.
